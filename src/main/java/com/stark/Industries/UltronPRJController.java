@@ -1,4 +1,4 @@
-package com.prj4devops;
+package com.stark.Industries;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @RestController
-public class SampleController {
+public class UltronPRJController {
 
     @RequestMapping("/")
     public String hello(HttpServletRequest request){
